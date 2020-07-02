@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset"UTF-8">
+ <meta name="viewport"  content="widith=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Transformation</title>
+  <style>
+  .box {
+width: 500px;
+height: 500px;
+background-color: red;
+animation: 5s scale_and_rotate_square infinite ease-in-out;
+}
+@keyframes scale_and_rotate_square {
+ 0% {
+transform: none;
+}
+ 50% {
+ color:blue;
+transform: rotate(1turn) scale(.5, .5);
+}
+100%{
+  transform: none;
+  color:pink;
+  }
+}
+  </style>
+ </head>
+ <body>
+  <div class="box">Don't worry I show you how i want</div>
+ </body>
+ </html>
